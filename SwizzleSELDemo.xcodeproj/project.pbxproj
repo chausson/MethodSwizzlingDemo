@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0633BA5E1DADD6860077A845 /* AppDelegate+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0633BA5D1DADD6860077A845 /* AppDelegate+Extensions.m */; };
 		06379D0E1D4EE40D0039F93A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06379D0D1D4EE40D0039F93A /* main.m */; };
 		06379D111D4EE40E0039F93A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06379D101D4EE40E0039F93A /* AppDelegate.m */; };
 		06379D141D4EE40F0039F93A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06379D131D4EE40F0039F93A /* ViewController.m */; };
@@ -29,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0633BA5C1DADD6860077A845 /* AppDelegate+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+Extensions.h"; sourceTree = "<group>"; };
+		0633BA5D1DADD6860077A845 /* AppDelegate+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+Extensions.m"; sourceTree = "<group>"; };
 		06379D091D4EE40D0039F93A /* SwizzleSELDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwizzleSELDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06379D0D1D4EE40D0039F93A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		06379D0F1D4EE40D0039F93A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -125,6 +128,8 @@
 				06379D341D4EEAE60039F93A /* UIViewController+ActivitySwizzle.m */,
 				06379D361D4EFBEB0039F93A /* UIViewController+ActivitySwizzleB.h */,
 				06379D371D4EFBEB0039F93A /* UIViewController+ActivitySwizzleB.m */,
+				0633BA5C1DADD6860077A845 /* AppDelegate+Extensions.h */,
+				0633BA5D1DADD6860077A845 /* AppDelegate+Extensions.m */,
 			);
 			name = SwizzleSel;
 			path = SwizzleSELDemo/SwizzleSel;
@@ -235,6 +240,7 @@
 				06379D351D4EEAE60039F93A /* UIViewController+ActivitySwizzle.m in Sources */,
 				06379D381D4EFBEB0039F93A /* UIViewController+ActivitySwizzleB.m in Sources */,
 				06379D0E1D4EE40D0039F93A /* main.m in Sources */,
+				0633BA5E1DADD6860077A845 /* AppDelegate+Extensions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +431,7 @@
 				06379D2D1D4EE41F0039F93A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		06379D2E1D4EE41F0039F93A /* Build configuration list for PBXNativeTarget "SwizzleSELDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -433,6 +440,7 @@
 				06379D301D4EE41F0039F93A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
